@@ -22,7 +22,7 @@ The Node.js backend calls this service when users create posts or upload post me
 
 ## 2. Project Structure
 
-Recommended AI service folder structure:
+AI service folder structure:
 
 ```txt
 AI-Services/
@@ -34,8 +34,6 @@ AI-Services/
 ├── README.md
 └── venv/
 ```
-
-`venv/` and large model files should not be pushed to GitHub.
 
 ---
 
@@ -306,7 +304,6 @@ The file is not a valid image or the image is corrupted.
 
 ## 13. Notes
 
-- The model files are large, so they should be stored locally or in cloud storage, not committed directly to GitHub.
 - Thresholds can be adjusted to reduce false positives or false negatives.
 - A higher threshold blocks fewer files but may miss some violations.
 - A lower threshold catches more violations but may block valid content.
